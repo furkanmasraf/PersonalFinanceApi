@@ -9,6 +9,7 @@ namespace PersonalFinanceApi.Controllers
     [Route("api/[controller]")]
     public class IncomeController : ControllerBase
     {
+        
 
         [HttpGet("{count:int}")]
         public List<UserDto> GetList(int count)

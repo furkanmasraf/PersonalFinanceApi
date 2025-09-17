@@ -7,5 +7,11 @@
         public string Source { get; set; }
         public DateTime DateReceived { get; set; }
 
+        public int UserId { get; set; }
+        public User User { get; set; }
+
+        public int AccountId { get; set; }
+        public Account Account { get; set; }
+
     }
 }
